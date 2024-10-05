@@ -144,3 +144,5 @@ CMakeUserPresets.json
 
 .cache/
 .lldbinit
+result
+.direnv
