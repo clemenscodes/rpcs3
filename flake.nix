@@ -31,11 +31,13 @@
                 cmake
                 pkg-config
                 git
+                clang-tools
+                gnumake
               ];
               buildInputs = with pkgs; [
-                kdePackages.qtbase
-                kdePackages.qtmultimedia
-                kdePackages.qtwayland
+                qt6Packages.qtbase
+                qt6Packages.qtmultimedia
+                qt6Packages.qtwayland
                 wayland
                 faudio
                 openal

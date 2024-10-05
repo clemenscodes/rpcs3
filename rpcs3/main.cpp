@@ -1381,7 +1381,7 @@ int main(int argc, char** argv)
 
 		if (s_no_gui)
 		{
-			QMessageBox::warning(nullptr, QObject::tr("Missing command-line arguments."), QObject::tr("Cannot run no-gui mode without boot target.\nTerminating..."));
+			QMessageBox::warning(nullptr, QObject::tr("Missing command-line arguments!"), QObject::tr("Cannot run no-gui mode without boot target.\nTerminating..."));
 		}
 
 		Emu.Quit(true);

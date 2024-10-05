@@ -146,3 +146,5 @@ CMakeUserPresets.json
 .lldbinit
 result
 .direnv
+rpcs3_build
+build
