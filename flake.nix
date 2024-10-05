@@ -22,7 +22,7 @@
           pkgs = import nixpkgs {inherit system;};
         in {
           packages = {
-            default = pkgs.callPackage ./nix/package.nix {};
+            default = pkgs.callPackage ./package.nix {};
           };
 
           devShells = {
